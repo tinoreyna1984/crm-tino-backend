@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_producto_productos",
+  "info": {
+    "displayName": "Producto",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "descripcionprod": {
+      "type": "string"
+    },
+    "precio": {
+      "type": "decimal"
+    },
+    "cantidad": {
+      "type": "integer",
+      "default": 1
+    },
+    "tipoprod": {
+      "type": "enumeration",
+      "enum": [
+        "producto",
+        "servicio"
+      ]
+    }
+  }
+}

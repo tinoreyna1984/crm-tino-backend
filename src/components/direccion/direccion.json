@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_direccion_direccions",
+  "info": {
+    "displayName": "Direccion"
+  },
+  "options": {},
+  "attributes": {
+    "descripcion": {
+      "type": "text"
+    }
+  }
+}

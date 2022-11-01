@@ -1,0 +1,308 @@
+{
+	"info": {
+		"_postman_id": "e091e8f5-4fc5-4b52-8f25-ad66e956aa41",
+		"name": "CRM - Strapi - Local",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "4381878"
+	},
+	"item": [
+		{
+			"name": "GET - Ventas - General",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiaWF0IjoxNjY3MjY4NTkwLCJleHAiOjE2Njk4NjA1OTB9.70gvRDQWa1SqpTKkj4wz3IrdnlJS_OKJ2VrlfkaC6us",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:1337/api/ventas?populate=*",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "1337",
+					"path": [
+						"api",
+						"ventas"
+					],
+					"query": [
+						{
+							"key": "populate",
+							"value": "*"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET - Ventas - Producto",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiaWF0IjoxNjY3MjY4NTkwLCJleHAiOjE2Njk4NjA1OTB9.70gvRDQWa1SqpTKkj4wz3IrdnlJS_OKJ2VrlfkaC6us",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:1337/api/ventas?populate=producto",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "1337",
+					"path": [
+						"api",
+						"ventas"
+					],
+					"query": [
+						{
+							"key": "populate",
+							"value": "producto"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET - Ventas - Cliente",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiaWF0IjoxNjY3MjY4NTkwLCJleHAiOjE2Njk4NjA1OTB9.70gvRDQWa1SqpTKkj4wz3IrdnlJS_OKJ2VrlfkaC6us",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:1337/api/ventas?populate=cliente",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "1337",
+					"path": [
+						"api",
+						"ventas"
+					],
+					"query": [
+						{
+							"key": "populate",
+							"value": "cliente"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "POST - Login",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"identifier\": \"tinoreyna1984@gmail.com\",\r\n  \"password\": \"Tr20010878\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:1337/api/auth/local",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "1337",
+					"path": [
+						"api",
+						"auth",
+						"local"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "POST - Ventas",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiaWF0IjoxNjY3MjY4NTkwLCJleHAiOjE2Njk4NjA1OTB9.70gvRDQWa1SqpTKkj4wz3IrdnlJS_OKJ2VrlfkaC6us",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"data\": {\r\n      \"fechacompra\": \"2022-11-01\",\r\n      \"fechaentrega\": \"2022-11-01\",\r\n      \"estadoventa\": \"entregado\",\r\n      \"canalventa\": \"Correo\",\r\n\t  \"direccion\" : \"Dir 1, Guayaquil, Ecuador.\",\r\n      \"mediopago\": \"transferencia\",\r\n      \"delivery\": \"si\",\r\n      \"cliente\": {\r\n          \"nombre\": \"Justo Pacheco\",\r\n          \"docid\": \"0921350015\",\r\n          \"tipodocid\": \"pasaporte\",\r\n          \"fono\": \"0920367484\",\r\n          \"email\": \"justop@mail.com\"\r\n      },\r\n      \"producto\": [\r\n          {\r\n              \"descripcionprod\": \"Laptop Dell i5 16Gb RAM\",\r\n              \"precio\": 950,\r\n              \"cantidad\": 1,\r\n              \"tipoprod\": \"producto\"\r\n          }\r\n      ]\r\n  }\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:1337/api/ventas?populate=*",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "1337",
+					"path": [
+						"api",
+						"ventas"
+					],
+					"query": [
+						{
+							"key": "populate",
+							"value": "*"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "PUT - Ventas",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiaWF0IjoxNjY3MjY4NTkwLCJleHAiOjE2Njk4NjA1OTB9.70gvRDQWa1SqpTKkj4wz3IrdnlJS_OKJ2VrlfkaC6us",
+							"type": "string"
+						}
+					]
+				},
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"data\": {\r\n      \"mediopago\": \"efectivo\"\r\n  }\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:1337/api/ventas/8",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "1337",
+					"path": [
+						"api",
+						"ventas",
+						"8"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DELETE - Ventas",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiaWF0IjoxNjY3MjY4NTkwLCJleHAiOjE2Njk4NjA1OTB9.70gvRDQWa1SqpTKkj4wz3IrdnlJS_OKJ2VrlfkaC6us",
+							"type": "string"
+						}
+					]
+				},
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:1337/api/ventas/19",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "1337",
+					"path": [
+						"api",
+						"ventas",
+						"19"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

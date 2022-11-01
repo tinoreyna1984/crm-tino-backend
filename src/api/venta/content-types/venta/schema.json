@@ -1,0 +1,76 @@
+{
+  "kind": "collectionType",
+  "collectionName": "ventas",
+  "info": {
+    "singularName": "venta",
+    "pluralName": "ventas",
+    "displayName": "Venta",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "fechacompra": {
+      "type": "date"
+    },
+    "fechaentrega": {
+      "type": "date"
+    },
+    "estadoventa": {
+      "type": "enumeration",
+      "enum": [
+        "solicitud",
+        "pagado",
+        "entregado"
+      ],
+      "default": "solicitud"
+    },
+    "cliente": {
+      "displayName": "Cliente",
+      "type": "component",
+      "repeatable": false,
+      "component": "cliente.cliente"
+    },
+    "producto": {
+      "displayName": "Producto",
+      "type": "component",
+      "repeatable": true,
+      "component": "producto.producto"
+    },
+    "canalventa": {
+      "type": "enumeration",
+      "enum": [
+        "Redes sociales (Facebook, Instagram, etc)",
+        "Correo",
+        "Fono/WhatsApp",
+        "Venta directa"
+      ],
+      "default": "Fono/WhatsApp"
+    },
+    "direccion": {
+      "type": "text"
+    },
+    "detalles": {
+      "type": "text"
+    },
+    "mediopago": {
+      "type": "enumeration",
+      "enum": [
+        "efectivo",
+        "tarjeta credito/debito",
+        "transferencia"
+      ],
+      "default": "efectivo"
+    },
+    "delivery": {
+      "type": "enumeration",
+      "enum": [
+        "si",
+        "no"
+      ],
+      "default": "no"
+    }
+  }
+}

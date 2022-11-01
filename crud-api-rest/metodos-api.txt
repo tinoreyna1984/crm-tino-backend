@@ -1,0 +1,157 @@
+
+Formas de pago:
+efectivo
+tarjeta credito/debito
+transferencia
+
+
+Canales de venta:
+Redes sociales (Facebook, Instagram, etc)
+Correo
+Fono/WhatsApp
+Venta directa
+
+Estado de venta:
+solicitud
+pagado
+entregado
+
+
+
+POST - agregar venta
+{
+  "data": {
+      "fechacompra": "2022-11-01",
+      "fechaentrega": "2022-11-01",
+      "estadoventa": "entregado",
+      "canalventa": "Fono/WhatsApp",
+      "mediopago": "tarjeta credito/debito",
+      "delivery": "no",
+      "cliente": {
+          "nombre": "Pedro Rosales",
+          "docid": "0989465125",
+          "tipodocid": "cedula",
+          "fono": "0998876554",
+          "email": "pedro@mail.com"
+      },
+      "producto": [
+          {
+              "descripcionprod": "Cartuchos Impresora Epson L375",
+              "precio": 35,
+              "cantidad": 1,
+              "tipoprod": "producto"
+          }
+      ]
+  }
+}
+
+Con delivery:
+{
+  "data": {
+      "fechacompra": "2022-11-01",
+      "fechaentrega": "2022-11-01",
+      "estadoventa": "entregado",
+      "canalventa": "Fono/WhatsApp",
+	  "direccion" : "Dir 1, Guayaquil, Ecuador.",
+      "mediopago": "tarjeta credito/debito",
+      "delivery": "si",
+      "cliente": {
+          "nombre": "Julio Camino",
+          "docid": "0922113654",
+          "tipodocid": "cedula",
+          "fono": "0910235984",
+          "email": "julio@mail.com"
+      },
+      "producto": [
+          {
+              "descripcionprod": "Laptop Dell i5 16Gb RAM",
+              "precio": 950,
+              "cantidad": 1,
+              "tipoprod": "producto"
+          },
+          {
+              "descripcionprod": "Impresora Epson L375",
+              "precio": 225,
+              "cantidad": 1,
+              "tipoprod": "producto"
+          }
+      ]
+  }
+}
+
+{
+  "data": {
+      "fechacompra": "2022-11-01",
+      "fechaentrega": "2022-11-01",
+      "estadoventa": "entregado",
+      "canalventa": "Venta directa",
+      "mediopago": "efectivo",
+      "delivery": "no",
+      "cliente": {
+          "nombre": "Alberto Puentes",
+          "docid": "0926135748",
+          "tipodocid": "cedula",
+          "fono": "0969365521",
+          "email": "beto@mail.com"
+      },
+      "producto": [
+          {
+              "descripcionprod": "Repotenciación de laptop",
+              "precio": 300,
+              "cantidad": 1,
+              "tipoprod": "servicio"
+          },
+          {
+              "descripcionprod": "Mouse óptico Genius",
+              "precio": 10,
+              "cantidad": 1,
+              "tipoprod": "producto"
+          },
+          {
+              "descripcionprod": "Cartuchos Impresora Epson L375",
+              "precio": 35,
+              "cantidad": 3,
+              "tipoprod": "producto"
+          }
+      ]
+  }
+}
+
+{
+  "data": {
+      "fechacompra": "2022-11-01",
+      "fechaentrega": "2022-11-01",
+      "estadoventa": "entregado",
+      "canalventa": "Correo",
+	  "direccion" : "Dir 1, Guayaquil, Ecuador.",
+      "mediopago": "tarjeta credito/debito",
+      "delivery": "si",
+      "cliente": {
+          "nombre": "Carlos Peralta",
+          "docid": "0984956231",
+          "tipodocid": "pasaporte",
+          "fono": "0933335124",
+          "email": "carlosperalta@mail.com"
+      },
+      "producto": [
+          {
+              "descripcionprod": "Laptop Dell i5 16Gb RAM",
+              "precio": 950,
+              "cantidad": 1,
+              "tipoprod": "producto"
+          }
+      ]
+  }
+}
+
+PUT
+
+{
+  "data": {
+      "mediopago": "efectivo"
+  }
+}
+
+
+
+
