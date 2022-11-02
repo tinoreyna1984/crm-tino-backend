@@ -1,0 +1,568 @@
+{
+	"version": 2,
+	"data": {
+		"producto.producto": {
+			"2": {
+				"id": 2,
+				"descripcionprod": "Laptop Dell i5 16Gb RAM",
+				"precio": 950,
+				"cantidad": 1,
+				"tipoprod": "producto"
+			},
+			"3": {
+				"id": 3,
+				"descripcionprod": "Silla gamer",
+				"precio": 50,
+				"cantidad": 1,
+				"tipoprod": "producto"
+			},
+			"4": {
+				"id": 4,
+				"descripcionprod": "Formateo y restauración de laptop",
+				"precio": 200,
+				"cantidad": 1,
+				"tipoprod": "servicio"
+			},
+			"5": {
+				"id": 5,
+				"descripcionprod": "Impresora Epson L375",
+				"precio": 225,
+				"cantidad": 1,
+				"tipoprod": "producto"
+			},
+			"6": {
+				"id": 6,
+				"descripcionprod": "Formatear disco duro",
+				"precio": 50,
+				"cantidad": 1,
+				"tipoprod": "servicio"
+			},
+			"7": {
+				"id": 7,
+				"descripcionprod": "Impresora Epson L375",
+				"precio": 225,
+				"cantidad": 1,
+				"tipoprod": "producto"
+			},
+			"8": {
+				"id": 8,
+				"descripcionprod": "Cartuchos Impresora Epson L375",
+				"precio": 35,
+				"cantidad": 1,
+				"tipoprod": "producto"
+			},
+			"9": {
+				"id": 9,
+				"descripcionprod": "Laptop Dell i5 16Gb RAM",
+				"precio": 950,
+				"cantidad": 1,
+				"tipoprod": "producto"
+			},
+			"10": {
+				"id": 10,
+				"descripcionprod": "Impresora Epson L375",
+				"precio": 225,
+				"cantidad": 1,
+				"tipoprod": "producto"
+			},
+			"11": {
+				"id": 11,
+				"descripcionprod": "Impresora Epson L375",
+				"precio": 225,
+				"cantidad": 1,
+				"tipoprod": "producto"
+			},
+			"12": {
+				"id": 12,
+				"descripcionprod": "Silla gamer",
+				"precio": 50,
+				"cantidad": 1,
+				"tipoprod": "producto"
+			},
+			"13": {
+				"id": 13,
+				"descripcionprod": "Repotenciación de laptop",
+				"precio": 300,
+				"cantidad": 1,
+				"tipoprod": "servicio"
+			},
+			"14": {
+				"id": 14,
+				"descripcionprod": "Mouse óptico Genius",
+				"precio": 10,
+				"cantidad": 1,
+				"tipoprod": "producto"
+			},
+			"15": {
+				"id": 15,
+				"descripcionprod": "Cartuchos Impresora Epson L375",
+				"precio": 35,
+				"cantidad": 3,
+				"tipoprod": "producto"
+			},
+			"16": {
+				"id": 16,
+				"descripcionprod": "Cartuchos Impresora Epson L375",
+				"precio": 35,
+				"cantidad": 2,
+				"tipoprod": "producto"
+			},
+			"17": {
+				"id": 17,
+				"descripcionprod": "Cartuchos Impresora Epson L375",
+				"precio": 35,
+				"cantidad": 4,
+				"tipoprod": "producto"
+			},
+			"18": {
+				"id": 18,
+				"descripcionprod": "Laptop Dell i5 16Gb RAM",
+				"precio": 950,
+				"cantidad": 1,
+				"tipoprod": "producto"
+			},
+			"19": {
+				"id": 19,
+				"descripcionprod": "Laptop Dell i5 16Gb RAM",
+				"precio": 950,
+				"cantidad": 1,
+				"tipoprod": "producto"
+			},
+			"20": {
+				"id": 20,
+				"descripcionprod": "Laptop Dell i5 16Gb RAM",
+				"precio": 950,
+				"cantidad": 1,
+				"tipoprod": "producto"
+			}
+		},
+		"cliente.cliente": {
+			"3": {
+				"id": 3,
+				"nombre": "Tino Reyna",
+				"docid": "0933084527",
+				"tipodocid": "cedula",
+				"fono": "0986440040",
+				"email": "tinoreyna1984@gmail.com"
+			},
+			"4": {
+				"id": 4,
+				"nombre": "Juan Diaz",
+				"docid": "0922086914",
+				"tipodocid": "cedula",
+				"fono": "0996655123",
+				"email": "juandiaz@mail.com"
+			},
+			"5": {
+				"id": 5,
+				"nombre": "Marcos Gonzalez",
+				"docid": "0999063555",
+				"tipodocid": "cedula",
+				"fono": "0997156321",
+				"email": "marcos@mail.com"
+			},
+			"6": {
+				"id": 6,
+				"nombre": "Antonio Macias",
+				"docid": "0995140996",
+				"tipodocid": "cedula",
+				"fono": "0933964462",
+				"email": "antonio@mail.com"
+			},
+			"7": {
+				"id": 7,
+				"nombre": "Luisa Vargas",
+				"docid": "0966113218",
+				"tipodocid": "cedula",
+				"fono": "0965657878",
+				"email": "luisa@mail.com"
+			},
+			"8": {
+				"id": 8,
+				"nombre": "Pedro Rosales",
+				"docid": "0989465125",
+				"tipodocid": "cedula",
+				"fono": "0998876554",
+				"email": "pedro@mail.com"
+			},
+			"9": {
+				"id": 9,
+				"nombre": "Julio Camino",
+				"docid": "0922113654",
+				"tipodocid": "cedula",
+				"fono": "0910235984",
+				"email": "julio@mail.com"
+			},
+			"10": {
+				"id": 10,
+				"nombre": "Juana Castro",
+				"docid": "0951684286",
+				"tipodocid": "cedula",
+				"fono": "0911203596",
+				"email": "juana@mail.com"
+			},
+			"11": {
+				"id": 11,
+				"nombre": "Peter Paredes",
+				"docid": "0966541784",
+				"tipodocid": "cedula",
+				"fono": "0922359618",
+				"email": "peter@mail.com"
+			},
+			"12": {
+				"id": 12,
+				"nombre": "Alberto Puentes",
+				"docid": "0926135748",
+				"tipodocid": "cedula",
+				"fono": "0969365521",
+				"email": "beto@mail.com"
+			},
+			"13": {
+				"id": 13,
+				"nombre": "Lisa Juarez",
+				"docid": "0955226369",
+				"tipodocid": "cedula",
+				"fono": "0989757484",
+				"email": "lisa@mail.com"
+			},
+			"14": {
+				"id": 14,
+				"nombre": "José Pinto",
+				"docid": "0951623534",
+				"tipodocid": "cedula",
+				"fono": "0945654124",
+				"email": "pppinto@mail.com"
+			},
+			"15": {
+				"id": 15,
+				"nombre": "Ellie Bracket",
+				"docid": "156428958",
+				"tipodocid": "pasaporte",
+				"fono": "0926548597",
+				"email": "ellieb@mail.com"
+			},
+			"16": {
+				"id": 16,
+				"nombre": "Carlos Peralta",
+				"docid": "0984956231",
+				"tipodocid": "pasaporte",
+				"fono": "0933335124",
+				"email": "carlosperalta@mail.com"
+			},
+			"17": {
+				"id": 17,
+				"nombre": "Justo Pacheco",
+				"docid": "0921350015",
+				"tipodocid": "pasaporte",
+				"fono": "0920367484",
+				"email": "justop@mail.com"
+			}
+		},
+		"api::venta.venta": {
+			"1": {
+				"id": 1,
+				"createdAt": "2022-11-01T00:09:46.498Z",
+				"updatedAt": "2022-11-01T00:45:14.083Z",
+				"publishedAt": "2022-11-01T00:09:52.569Z",
+				"fechacompra": "2022-10-31",
+				"fechaentrega": "2022-10-31",
+				"estadoventa": "entregado",
+				"canalventa": "Redes sociales (Facebook, Instagram, etc)",
+				"direccion": null,
+				"detalles": null,
+				"mediopago": "tarjeta credito/debito",
+				"delivery": "no",
+				"cliente": 3,
+				"producto": [
+					2,
+					3
+				],
+				"createdBy": null,
+				"updatedBy": null
+			},
+			"2": {
+				"id": 2,
+				"createdAt": "2022-11-01T00:15:24.825Z",
+				"updatedAt": "2022-11-01T17:39:55.385Z",
+				"publishedAt": "2022-11-01T00:15:44.345Z",
+				"fechacompra": "2022-10-31",
+				"fechaentrega": "2022-10-31",
+				"estadoventa": "pagado",
+				"canalventa": "Redes sociales (Facebook, Instagram, etc)",
+				"direccion": "Dir 1, Guayaquil, Ecuador.",
+				"detalles": "Pendiente entrega",
+				"mediopago": "tarjeta credito/debito",
+				"delivery": "si",
+				"cliente": 4,
+				"producto": [
+					4
+				],
+				"createdBy": null,
+				"updatedBy": null
+			},
+			"3": {
+				"id": 3,
+				"createdAt": "2022-11-01T00:21:54.655Z",
+				"updatedAt": "2022-11-01T00:45:51.860Z",
+				"publishedAt": "2022-11-01T00:21:57.720Z",
+				"fechacompra": "2022-10-31",
+				"fechaentrega": "2022-11-03",
+				"estadoventa": "solicitud",
+				"canalventa": "Venta directa",
+				"direccion": null,
+				"detalles": "Pago pendiente",
+				"mediopago": "tarjeta credito/debito",
+				"delivery": "no",
+				"cliente": 5,
+				"producto": [
+					5
+				],
+				"createdBy": null,
+				"updatedBy": null
+			},
+			"4": {
+				"id": 4,
+				"createdAt": "2022-11-01T01:02:49.356Z",
+				"updatedAt": "2022-11-01T01:02:51.282Z",
+				"publishedAt": "2022-11-01T01:02:51.278Z",
+				"fechacompra": "2022-10-31",
+				"fechaentrega": "2022-10-31",
+				"estadoventa": "entregado",
+				"canalventa": "Venta directa",
+				"direccion": null,
+				"detalles": null,
+				"mediopago": "efectivo",
+				"delivery": "no",
+				"cliente": 6,
+				"producto": [
+					6
+				],
+				"createdBy": null,
+				"updatedBy": null
+			},
+			"8": {
+				"id": 8,
+				"createdAt": "2022-11-01T16:33:45.140Z",
+				"updatedAt": "2022-11-01T18:36:26.120Z",
+				"publishedAt": "2022-11-01T16:33:44.867Z",
+				"fechacompra": "2022-11-01",
+				"fechaentrega": "2022-11-01",
+				"estadoventa": "entregado",
+				"canalventa": "Venta directa",
+				"direccion": null,
+				"detalles": null,
+				"mediopago": "efectivo",
+				"delivery": "no",
+				"cliente": 7,
+				"producto": [
+					7
+				],
+				"createdBy": null,
+				"updatedBy": null
+			},
+			"9": {
+				"id": 9,
+				"createdAt": "2022-11-01T17:15:12.610Z",
+				"updatedAt": "2022-11-01T17:15:12.610Z",
+				"publishedAt": "2022-11-01T17:15:12.308Z",
+				"fechacompra": "2022-11-01",
+				"fechaentrega": "2022-11-01",
+				"estadoventa": "entregado",
+				"canalventa": "Fono/WhatsApp",
+				"direccion": "Dir 1, Guayaquil, Ecuador.",
+				"detalles": null,
+				"mediopago": "tarjeta credito/debito",
+				"delivery": "si",
+				"cliente": 8,
+				"producto": [
+					8
+				],
+				"createdBy": null,
+				"updatedBy": null
+			},
+			"10": {
+				"id": 10,
+				"createdAt": "2022-11-01T17:19:45.892Z",
+				"updatedAt": "2022-11-01T17:19:45.892Z",
+				"publishedAt": "2022-11-01T17:19:45.469Z",
+				"fechacompra": "2022-11-01",
+				"fechaentrega": "2022-11-01",
+				"estadoventa": "entregado",
+				"canalventa": "Fono/WhatsApp",
+				"direccion": "Dir 1, Guayaquil, Ecuador.",
+				"detalles": null,
+				"mediopago": "tarjeta credito/debito",
+				"delivery": "si",
+				"cliente": 9,
+				"producto": [
+					9,
+					10
+				],
+				"createdBy": null,
+				"updatedBy": null
+			},
+			"11": {
+				"id": 11,
+				"createdAt": "2022-11-01T17:29:10.042Z",
+				"updatedAt": "2022-11-01T17:29:10.042Z",
+				"publishedAt": "2022-11-01T17:29:09.737Z",
+				"fechacompra": "2022-11-01",
+				"fechaentrega": "2022-11-01",
+				"estadoventa": "entregado",
+				"canalventa": "Venta directa",
+				"direccion": null,
+				"detalles": null,
+				"mediopago": "efectivo",
+				"delivery": "no",
+				"cliente": 10,
+				"producto": [
+					11
+				],
+				"createdBy": null,
+				"updatedBy": null
+			},
+			"12": {
+				"id": 12,
+				"createdAt": "2022-11-01T17:31:37.471Z",
+				"updatedAt": "2022-11-01T17:31:37.471Z",
+				"publishedAt": "2022-11-01T17:31:37.004Z",
+				"fechacompra": "2022-11-01",
+				"fechaentrega": "2022-11-01",
+				"estadoventa": "entregado",
+				"canalventa": "Venta directa",
+				"direccion": null,
+				"detalles": null,
+				"mediopago": "tarjeta credito/debito",
+				"delivery": "no",
+				"cliente": 11,
+				"producto": [
+					12
+				],
+				"createdBy": null,
+				"updatedBy": null
+			},
+			"13": {
+				"id": 13,
+				"createdAt": "2022-11-01T17:36:41.286Z",
+				"updatedAt": "2022-11-01T17:36:41.286Z",
+				"publishedAt": "2022-11-01T17:36:40.654Z",
+				"fechacompra": "2022-11-01",
+				"fechaentrega": "2022-11-01",
+				"estadoventa": "entregado",
+				"canalventa": "Venta directa",
+				"direccion": null,
+				"detalles": null,
+				"mediopago": "efectivo",
+				"delivery": "no",
+				"cliente": 12,
+				"producto": [
+					13,
+					14,
+					15
+				],
+				"createdBy": null,
+				"updatedBy": null
+			},
+			"14": {
+				"id": 14,
+				"createdAt": "2022-11-01T17:39:17.061Z",
+				"updatedAt": "2022-11-01T17:39:17.061Z",
+				"publishedAt": "2022-11-01T17:39:16.778Z",
+				"fechacompra": "2022-11-01",
+				"fechaentrega": "2022-11-01",
+				"estadoventa": "entregado",
+				"canalventa": "Redes sociales (Facebook, Instagram, etc)",
+				"direccion": "Dir 1, Guayaquil, Ecuador.",
+				"detalles": null,
+				"mediopago": "tarjeta credito/debito",
+				"delivery": "si",
+				"cliente": 13,
+				"producto": [
+					16
+				],
+				"createdBy": null,
+				"updatedBy": null
+			},
+			"15": {
+				"id": 15,
+				"createdAt": "2022-11-01T18:25:28.790Z",
+				"updatedAt": "2022-11-01T18:25:28.790Z",
+				"publishedAt": "2022-11-01T18:25:28.391Z",
+				"fechacompra": "2022-11-01",
+				"fechaentrega": "2022-11-01",
+				"estadoventa": "entregado",
+				"canalventa": "Venta directa",
+				"direccion": null,
+				"detalles": null,
+				"mediopago": "tarjeta credito/debito",
+				"delivery": "no",
+				"cliente": 14,
+				"producto": [
+					17
+				],
+				"createdBy": null,
+				"updatedBy": null
+			},
+			"16": {
+				"id": 16,
+				"createdAt": "2022-11-01T18:28:35.809Z",
+				"updatedAt": "2022-11-01T18:28:35.809Z",
+				"publishedAt": "2022-11-01T18:28:35.496Z",
+				"fechacompra": "2022-11-01",
+				"fechaentrega": "2022-11-01",
+				"estadoventa": "entregado",
+				"canalventa": "Correo",
+				"direccion": "Dir 1, Guayaquil, Ecuador.",
+				"detalles": null,
+				"mediopago": "tarjeta credito/debito",
+				"delivery": "si",
+				"cliente": 15,
+				"producto": [
+					18
+				],
+				"createdBy": null,
+				"updatedBy": null
+			},
+			"17": {
+				"id": 17,
+				"createdAt": "2022-11-01T18:30:24.958Z",
+				"updatedAt": "2022-11-01T18:30:24.958Z",
+				"publishedAt": "2022-11-01T18:30:24.671Z",
+				"fechacompra": "2022-11-01",
+				"fechaentrega": "2022-11-01",
+				"estadoventa": "entregado",
+				"canalventa": "Correo",
+				"direccion": "Dir 1, Guayaquil, Ecuador.",
+				"detalles": null,
+				"mediopago": "tarjeta credito/debito",
+				"delivery": "si",
+				"cliente": 16,
+				"producto": [
+					19
+				],
+				"createdBy": null,
+				"updatedBy": null
+			},
+			"18": {
+				"id": 18,
+				"createdAt": "2022-11-01T18:31:32.674Z",
+				"updatedAt": "2022-11-01T18:31:32.674Z",
+				"publishedAt": "2022-11-01T18:31:32.347Z",
+				"fechacompra": "2022-11-01",
+				"fechaentrega": "2022-11-01",
+				"estadoventa": "entregado",
+				"canalventa": "Correo",
+				"direccion": "Dir 1, Guayaquil, Ecuador.",
+				"detalles": null,
+				"mediopago": "transferencia",
+				"delivery": "si",
+				"cliente": 17,
+				"producto": [
+					20
+				],
+				"createdBy": null,
+				"updatedBy": null
+			}
+		}
+	}
+}
